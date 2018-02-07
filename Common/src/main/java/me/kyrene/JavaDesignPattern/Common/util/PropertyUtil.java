@@ -10,17 +10,13 @@ import java.util.Properties;
 public class PropertyUtil {
 
     //加载property文件到io流里面
-    public static Properties loadProperties(String propertyFile) {
+    public static Properties loadProperties(String propertyFile) throws IOException {
         Properties properties = new Properties();
-        try {
             InputStream is = PropertyUtil.class.getClassLoader().getResourceAsStream(propertyFile);
             if(is == null){
                 is = PropertyUtil.class.getClassLoader().getResourceAsStream(propertyFile);
             }
             properties.load(is);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
         return properties;
     }
 

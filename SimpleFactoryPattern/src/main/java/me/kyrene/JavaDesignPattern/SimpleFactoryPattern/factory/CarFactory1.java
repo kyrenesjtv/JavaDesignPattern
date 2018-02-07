@@ -1,6 +1,7 @@
-package me.kyrene.JavaDesignPattern.SimpleFactoryPattern.client;
+package me.kyrene.JavaDesignPattern.SimpleFactoryPattern.factory;
 
 import me.kyrene.JavaDesignPattern.Common.util.PropertyUtil;
+import me.kyrene.JavaDesignPattern.SimpleFactoryPattern.client.client2;
 import me.kyrene.JavaDesignPattern.SimpleFactoryPattern.product.AudiCar;
 import me.kyrene.JavaDesignPattern.SimpleFactoryPattern.product.BMWCar;
 import me.kyrene.JavaDesignPattern.SimpleFactoryPattern.product.BenzCar;
@@ -14,19 +15,20 @@ import java.util.Properties;
 /**
  * Created by wanglin on 2018/2/7.
  */
-public class client2 {
-    private static final Logger LOG = LoggerFactory.getLogger(client2.class);
+public class CarFactory1 {
 
-    public static void main(String[] args) {
-        Properties properties = null;
+    private static final Logger LOG = LoggerFactory.getLogger(CarFactory1.class);
+
+    public static Car getCar() {
+        Car car = null;
         String name = null;
+        Properties properties = null;
         try {
             properties = PropertyUtil.loadProperties("car.properties");
-            name= properties.getProperty("cars.driver2");
+            name = properties.getProperty("cars.factory1");
         } catch (IOException e) {
             LOG.error("parse properties configuration file failed", e);
         }
-        Car car ;
         switch (name){
             case "BMW":
                 car = new BMWCar();
@@ -42,6 +44,6 @@ public class client2 {
                 break;
         }
         LOG.info("Created car name is {}", name);
-        car.driver();
+        return car;
     }
 }
