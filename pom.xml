@@ -11,8 +11,10 @@
     <modules>
         <module>SimpleFactoryPattern</module>
         <module>Common</module>
+        <module>FactoryMethodPattern</module>
     </modules>
 
+    <dependencyManagement>
     <dependencies>
         <dependency>
             <groupId>org.slf4j</groupId>
@@ -25,5 +27,5 @@
             <version>0.9.11</version>
         </dependency>
     </dependencies>
-
+    </dependencyManagement>
 </project>

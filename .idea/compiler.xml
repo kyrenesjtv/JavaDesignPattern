@@ -23,11 +23,13 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="Common" />
+        <module name="FactoryMethodPattern" />
         <module name="SimpleFactoryPattern" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Common" target="1.8" />
+      <module name="FactoryMethodPattern" target="1.8" />
       <module name="JavaDesignPattern" target="1.8" />
       <module name="SimpleFactoryPattern" target="1.8" />
     </bytecodeTargetLevel>

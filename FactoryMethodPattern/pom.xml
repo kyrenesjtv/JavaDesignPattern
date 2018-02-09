@@ -9,24 +9,12 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>SimpleFactoryPattern</artifactId>
-
+    <artifactId>FactoryMethodPattern</artifactId>
 
     <dependencies>
         <dependency>
-            <groupId>me.kyrene.JavaDesignPattern</groupId>
-            <artifactId>Common</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
         </dependency>
-            <dependency>
-                <groupId>org.slf4j</groupId>
-                <artifactId>slf4j-log4j12</artifactId>
-            </dependency>
-            <dependency>
-                <groupId>org.reflections</groupId>
-                <artifactId>reflections</artifactId>
-            </dependency>
     </dependencies>
-
-
 </project>
