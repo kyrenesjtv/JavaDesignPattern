@@ -12,6 +12,7 @@
         <module>SimpleFactoryPattern</module>
         <module>Common</module>
         <module>FactoryMethodPattern</module>
+        <module>AbstractFactoryPattern</module>
     </modules>
 
     <dependencyManagement>

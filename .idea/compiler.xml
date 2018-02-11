@@ -22,12 +22,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="AbstractFactoryPattern" />
         <module name="Common" />
         <module name="FactoryMethodPattern" />
         <module name="SimpleFactoryPattern" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="AbstractFactoryPattern" target="1.8" />
       <module name="Common" target="1.8" />
       <module name="FactoryMethodPattern" target="1.8" />
       <module name="JavaDesignPattern" target="1.8" />
