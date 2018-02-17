@@ -13,6 +13,7 @@
         <module>Common</module>
         <module>FactoryMethodPattern</module>
         <module>AbstractFactoryPattern</module>
+        <module>ObserverPattern</module>
     </modules>
 
     <dependencyManagement>
