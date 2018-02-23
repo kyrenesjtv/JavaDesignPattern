@@ -27,6 +27,7 @@
         <module name="CompositePattern" />
         <module name="FactoryMethodPattern" />
         <module name="ObserverPattern" />
+        <module name="ProxyAndDecoratorPattern" />
         <module name="SimpleFactoryPattern" />
       </profile>
     </annotationProcessing>
@@ -37,6 +38,7 @@
       <module name="FactoryMethodPattern" target="1.8" />
       <module name="JavaDesignPattern" target="1.8" />
       <module name="ObserverPattern" target="1.8" />
+      <module name="ProxyAndDecoratorPattern" target="1.8" />
       <module name="SimpleFactoryPattern" target="1.8" />
     </bytecodeTargetLevel>
   </component>

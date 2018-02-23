@@ -15,6 +15,7 @@
         <module>AbstractFactoryPattern</module>
         <module>ObserverPattern</module>
         <module>CompositePattern</module>
+        <module>ProxyAndDecoratorPattern</module>
     </modules>
 
     <dependencyManagement>
