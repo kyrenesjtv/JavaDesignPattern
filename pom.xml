@@ -16,6 +16,7 @@
         <module>ObserverPattern</module>
         <module>CompositePattern</module>
         <module>ProxyAndDecoratorPattern</module>
+        <module>DynamicProxyPattern</module>
     </modules>
 
     <dependencyManagement>
