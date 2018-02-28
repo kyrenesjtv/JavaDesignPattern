@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/ObserverPattern/ObserverPattern.iml" filepath="$PROJECT_DIR$/ObserverPattern/ObserverPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/ProxyAndDecoratorPattern/ProxyAndDecoratorPattern.iml" filepath="$PROJECT_DIR$/ProxyAndDecoratorPattern/ProxyAndDecoratorPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/SimpleFactoryPattern/SimpleFactoryPattern.iml" filepath="$PROJECT_DIR$/SimpleFactoryPattern/SimpleFactoryPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StrategyPattern/StrategyPattern.iml" filepath="$PROJECT_DIR$/StrategyPattern/StrategyPattern.iml" />
     </modules>
   </component>
 </project>
