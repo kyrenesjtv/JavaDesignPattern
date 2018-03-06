@@ -18,6 +18,7 @@
         <module>ProxyAndDecoratorPattern</module>
         <module>DynamicProxyPattern</module>
         <module>StrategyPattern</module>
+        <module>AdapterPattern</module>
     </modules>
 
     <dependencyManagement>
