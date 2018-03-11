@@ -31,6 +31,7 @@
         <module name="ObserverPattern" />
         <module name="ProxyAndDecoratorPattern" />
         <module name="SimpleFactoryPattern" />
+        <module name="SingletonPattern" />
         <module name="StrategyPattern" />
       </profile>
     </annotationProcessing>
@@ -45,6 +46,7 @@
       <module name="ObserverPattern" target="1.8" />
       <module name="ProxyAndDecoratorPattern" target="1.8" />
       <module name="SimpleFactoryPattern" target="1.8" />
+      <module name="SingletonPattern" target="1.8" />
       <module name="StrategyPattern" target="1.8" />
     </bytecodeTargetLevel>
   </component>

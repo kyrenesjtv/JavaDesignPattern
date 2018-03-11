@@ -19,6 +19,7 @@
         <module>DynamicProxyPattern</module>
         <module>StrategyPattern</module>
         <module>AdapterPattern</module>
+        <module>SingletonPattern</module>
     </modules>
 
     <dependencyManagement>
