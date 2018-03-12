@@ -24,6 +24,7 @@
         <processorPath useClasspath="true" />
         <module name="AbstractFactoryPattern" />
         <module name="AdapterPattern" />
+        <module name="BridgePattern" />
         <module name="Common" />
         <module name="CompositePattern" />
         <module name="DynamicProxyPattern" />
@@ -38,6 +39,7 @@
     <bytecodeTargetLevel>
       <module name="AbstractFactoryPattern" target="1.8" />
       <module name="AdapterPattern" target="1.8" />
+      <module name="BridgePattern" target="1.8" />
       <module name="Common" target="1.8" />
       <module name="CompositePattern" target="1.8" />
       <module name="DynamicProxyPattern" target="1.8" />
