@@ -21,6 +21,7 @@
         <module>AdapterPattern</module>
         <module>SingletonPattern</module>
         <module>BridgePattern</module>
+        <module>FlyweightPattern</module>
     </modules>
 
     <dependencyManagement>

@@ -29,6 +29,7 @@
         <module name="CompositePattern" />
         <module name="DynamicProxyPattern" />
         <module name="FactoryMethodPattern" />
+        <module name="FlyweightPattern" />
         <module name="ObserverPattern" />
         <module name="ProxyAndDecoratorPattern" />
         <module name="SimpleFactoryPattern" />
@@ -44,6 +45,7 @@
       <module name="CompositePattern" target="1.8" />
       <module name="DynamicProxyPattern" target="1.8" />
       <module name="FactoryMethodPattern" target="1.8" />
+      <module name="FlyweightPattern" target="1.8" />
       <module name="JavaDesignPattern" target="1.8" />
       <module name="ObserverPattern" target="1.8" />
       <module name="ProxyAndDecoratorPattern" target="1.8" />
